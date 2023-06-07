@@ -1,0 +1,91 @@
+
+    .header-block > div, .header-block > div::before, .header-block > div span {
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+    }
+    .header-block{  
+        float: right; 
+        margin-right: -10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 57px;
+    }
+    .header-block > div { float: right; position: relative; margin-left: 10px; padding: 5px 10px;transition: all 0.2s linear; min-height:44px;}
+    .header-block span{ display: inline-block; font-size: 13px; line-height: 16px; text-transform: uppercase;  padding-right: 48px;  color: #fff;}
+    .header-block strong{ display: block;}
+    .header-block > div:before{ font-size: 34px; line-height: 36px; color:rgba(0, 0, 0, .2); position: absolute; right: 10px; top: 5px;}
+    .header-block .block1:before{ content: '\f087'; font-family: FontAwesome;}
+    .header-block .block2:before{ content: '\f0d1'; font-family: FontAwesome;}
+    .header-block .block3:before{ content: '\f021'; font-family: FontAwesome;}
+    .header-block > div:hover{ background: rgba(0, 0, 0, .15); font-size: 14px;}
+    .header-block > div:hover span{ padding-right: 0; padding-left: 48px;  color: #fff !important;  } 
+    .header-block > div:hover:before{ left: 10px; right: auto; font-size: 26px; color: #fff;}
+    
+  .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+      transition: all 0.2s linear;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  header{
+    font-family: 'Amazon Ember';
+   
+ .left{
+  
+ 
+       height: 57px;
+       margin-top: auto;
+       margin-bottom: auto;
+       display: flex;
+       justify-content: center;
+      
+       padding: 9px 0px 9px;
+   
+    ul{
+        height: 100%;
+        display: flex !important;
+       
+       
+       
+        li{
+            list-style: none;
+            border-left: 1px solid #fff;
+            padding: 2px 10px 2px 11px;
+            margin: 10px 0;
+        
+            a{
+                font-size: 12px;
+                color: white;
+                text-decoration: none;
+                text-align: center;
+                .icons{
+                    color: #fff;
+                }
+             
+            }
+        }
+    }
+ }
+
+  }
+
+
+
+
+
+ 
+  
+
+
+ 
+
+  
+
+
+
